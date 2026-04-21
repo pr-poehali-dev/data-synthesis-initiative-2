@@ -18,7 +18,7 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              ЖИВАЯ ЗЕЛЕНЬ
+              <span style={{ color: "#3ecf1a" }}>ЖИВАЯ ЗЕЛЕНЬ</span>
               <br />
               ПРЯМО <span style={{ color: "#3ecf1a" }}>К СТОЛУ</span>
             </h1>
