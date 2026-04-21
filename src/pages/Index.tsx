@@ -18,12 +18,12 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              ЗЁМА ЗНАЕТ,
+              ЖИВАЯ ЗЕЛЕНЬ
               <br />
-              ЧТО <span>ВКУСНО</span>
+              ПРЯМО <span>К СТОЛУ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Домашняя еда без фокусов — только свежие продукты и рецепты, которые проверены временем. Заказывай онлайн или приходи к нам на рынок.
+              Микрозелень от Зёмы — выращиваем сами, срезаем свежей. Горох, редис, руккола — заказывай онлайн или находи нас на рынке.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <a href="tel:+79180741469" className="btn-cta" style={{ background: "var(--primary)", color: "white", textDecoration: "none" }}>
