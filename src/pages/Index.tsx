@@ -4,30 +4,30 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">ВКУСНО*ДОМАШНЕЕ</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Доставка</a>
+          <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Заказать</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              КАК ДОМА,
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ТОЛЬКО <span>ВКУСНЕЕ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Готовим из свежих продуктов с душой. Заказывай онлайн или находи нас на рынке — доставим прямо к тебе.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Заказать онлайн
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть меню
@@ -41,24 +41,24 @@ export default function Index() {
               КАЖДЫЙ ДЕНЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ДОМАШНЕЕ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              С ЛЮБОВЬЮ
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * ЕДА КАК У МАМЫ * ТОЛЬКО СВЕЖИЕ ПРОДУКТЫ * ДОСТАВКА И РЫНОК * БЕЗ КОНСЕРВАНТОВ * ГОТОВИМ С ДУШОЙ *
+            ЕДА КАК У МАМЫ * ТОЛЬКО СВЕЖИЕ ПРОДУКТЫ * ДОСТАВКА И РЫНОК * БЕЗ КОНСЕРВАНТОВ * ГОТОВИМ С ДУШОЙ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">НАШЕ МЕНЮ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -73,8 +73,8 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит продаж</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Домашний борщ"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Борщ домашний</h3>
+                  <span className="price">350 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Наваристый на говяжьей кости, со свежей сметаной и пампушками с чесноком.
                 </p>
               </div>
             </div>
@@ -97,11 +97,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Новинка
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Пельмени ручной лепки"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Пельмени ручной лепки</h3>
+                  <span className="price">420 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Сочная начинка из трёх видов мяса, тонкое тесто, лепим сами каждый день.</p>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Пироги"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Пироги с начинкой</h3>
+                  <span className="price">180 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Капуста, картошка с грибами или мясо — выбирай сам. Из печи каждое утро.
                 </p>
               </div>
             </div>
@@ -150,10 +150,10 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">ЕДА С ХАРАКТЕРОМ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Мы готовим так, как готовили бабушки — без спешки, без полуфабрикатов, только из настоящих продуктов.
+              Закажи онлайн с доставкой или приходи к нам на рынок — всегда приготовим свежее специально для тебя.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
@@ -164,31 +164,31 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            МЫ В ИНСТАГРАМ
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Фото 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Фото 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Фото 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Фото 4"
               />
             </div>
           </div>
@@ -197,9 +197,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">ВКУСНО*ДОМАШНЕЕ</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Домашняя еда с душой — онлайн-заказ и на рынке. Готовим каждый день из свежих продуктов.
           </p>
         </div>
         <div className="footer-links">
@@ -217,29 +217,29 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Доставка
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
         </div>
         <div className="footer-links">
-          <h4>Часы работы</h4>
+          <h4>Как заказать</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Онлайн — круглосуточно</li>
+            <li>Рынок Пт-Вс: 08:00 - 15:00</li>
+            <li>Доставка: от 1 часа</li>
+            <li>Самовывоз: бесплатно</li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <span>2026 ВКУСНО ДОМАШНЕЕ</span>
+          <span>ЕДА С ДУШОЙ</span>
+          <span>VK / TG / IG</span>
         </div>
       </footer>
     </>
