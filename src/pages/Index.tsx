@@ -29,7 +29,7 @@ export default function Index() {
               <a href="tel:+79180741469" className="btn-cta" style={{ background: "#3ecf1a", color: "white", textDecoration: "none" }}>
                 Заказать по телефону
               </a>
-              <button className="btn-cta" style={{ background: "white" }}>
+              <button className="btn-cta" style={{ background: "#3ecf1a", color: "white" }}>
                 Смотреть меню
               </button>
             </div>
