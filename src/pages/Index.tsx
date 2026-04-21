@@ -18,12 +18,12 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              КАК ДОМА,
+              ЗЁМА ЗНАЕТ,
               <br />
-              ТОЛЬКО <span>ВКУСНЕЕ</span>
+              ЧТО <span>ВКУСНО</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Готовим из свежих продуктов с душой. Заказывай онлайн или находи нас на рынке — доставим прямо к тебе.
+              Домашняя еда без фокусов — только свежие продукты и рецепты, которые проверены временем. Заказывай онлайн или приходи к нам на рынок.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
@@ -51,8 +51,8 @@ export default function Index() {
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * ЕДА КАК У МАМЫ * ТОЛЬКО СВЕЖИЕ ПРОДУКТЫ * ДОСТАВКА И РЫНОК * БЕЗ КОНСЕРВАНТОВ * ГОТОВИМ С ДУШОЙ *
-            ЕДА КАК У МАМЫ * ТОЛЬКО СВЕЖИЕ ПРОДУКТЫ * ДОСТАВКА И РЫНОК * БЕЗ КОНСЕРВАНТОВ * ГОТОВИМ С ДУШОЙ
+            &nbsp; * ЗЁМА * ЕДА БЕЗ ПОНТОВ * ТОЛЬКО СВЕЖЕЕ * ДОСТАВКА И РЫНОК * БЕЗ ПОЛУФАБРИКАТОВ * ЗЁМА ЗНАЕТ ВКУС *
+            ЗЁМА * ЕДА БЕЗ ПОНТОВ * ТОЛЬКО СВЕЖЕЕ * ДОСТАВКА И РЫНОК * БЕЗ ПОЛУФАБРИКАТОВ * ЗЁМА ЗНАЕТ ВКУС
           </div>
         </div>
 
@@ -150,10 +150,9 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ЕДА С ХАРАКТЕРОМ.</h2>
+            <h2 className="vibe-title">ЗЁМА — ЭТО СВОЁ.</h2>
             <p className="vibe-text">
-              Мы готовим так, как готовили бабушки — без спешки, без полуфабрикатов, только из настоящих продуктов.
-              Закажи онлайн с доставкой или приходи к нам на рынок — всегда приготовим свежее специально для тебя.
+              Зёма — это когда еда как у своих. Без лишних слов, без химии, без обмана. Готовим каждый день, продаём онлайн и на рынке. Попробуй раз — и поймёшь, почему возвращаются снова.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
@@ -199,7 +198,7 @@ export default function Index() {
         <div>
           <div className="footer-logo">ЗЁМА</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Домашняя еда с душой — онлайн-заказ и на рынке. Готовим каждый день из свежих продуктов.
+            Зёма — еда как у своих. Онлайн-заказ и на рынке. Без полуфабрикатов, только свежее.
           </p>
         </div>
         <div className="footer-links">
