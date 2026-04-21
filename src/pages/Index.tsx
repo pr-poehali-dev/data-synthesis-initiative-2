@@ -73,7 +73,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит продаж</span>
               <img
-                src="https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/c73cba1c-8943-48bd-9c7e-6155d6c0c6e1/files/dc79116b-5f82-47e1-b067-a616b88fb199.jpg"
                 alt="Микрозелень горох"
               />
               <div className="menu-card-body">
@@ -100,7 +100,7 @@ export default function Index() {
                 Свежее
               </span>
               <img
-                src="https://images.unsplash.com/photo-1609501676725-7186f017a4b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/c73cba1c-8943-48bd-9c7e-6155d6c0c6e1/files/4202652b-6039-44a0-8356-72f8834b88f7.jpg"
                 alt="Микрозелень редис"
               />
               <div className="menu-card-body">
@@ -125,7 +125,7 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/c73cba1c-8943-48bd-9c7e-6155d6c0c6e1/files/329edfb8-25e0-475f-b827-f4620088e589.jpg"
                 alt="Микрозелень руккола"
               />
               <div className="menu-card-body">
