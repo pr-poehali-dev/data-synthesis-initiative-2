@@ -229,7 +229,7 @@ export default function Index() {
         <div className="footer-links">
           <h4>Как заказать</h4>
           <ul>
-            <li>Онлайн — круглосуточно</li>
+            <li><a href="tel:+79180741469" style={{ color: "inherit", textDecoration: "none", fontWeight: 800 }}>+7 918 074-14-69</a></li>
             <li>Рынок Пт-Вс: 08:00 - 15:00</li>
             <li>Доставка: от 1 часа</li>
             <li>Самовывоз: бесплатно</li>
