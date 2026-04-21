@@ -26,7 +26,7 @@ export default function Index() {
               Микрозелень от Зёмы — выращиваем сами, срезаем свежей. Горох, редис, руккола — заказывай онлайн или находи нас на рынке.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <a href="tel:+79180741469" className="btn-cta" style={{ background: "var(--primary)", color: "white", textDecoration: "none" }}>
+              <a href="tel:+79180741469" className="btn-cta" style={{ background: "#3ecf1a", color: "white", textDecoration: "none" }}>
                 Заказать по телефону
               </a>
               <button className="btn-cta" style={{ background: "white" }}>
