@@ -20,7 +20,7 @@ export default function Index() {
             <h1 className="hero-title">
               <span style={{ color: "#3ecf1a" }}>ЖИВАЯ ЗЕЛЕНЬ</span>
               <br />
-              ПРЯМО <span style={{ color: "#3ecf1a" }}>К СТОЛУ</span>
+              <span style={{ color: "#3ecf1a" }}>ПРЯМО К СТОЛУ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
               Микрозелень от Зёмы — выращиваем сами, срезаем свежей. Горох, редис, руккола — заказывай онлайн или находи нас на рынке.
