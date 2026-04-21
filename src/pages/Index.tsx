@@ -11,7 +11,7 @@ export default function Index() {
           <a href="#">Доставка</a>
           <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta">Заказать</button>
+        <a href="tel:+79180741469" className="btn-cta" style={{ textDecoration: "none" }}>Заказать</a>
       </header>
 
       <main>
@@ -26,9 +26,9 @@ export default function Index() {
               Домашняя еда без фокусов — только свежие продукты и рецепты, которые проверены временем. Заказывай онлайн или приходи к нам на рынок.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать онлайн
-              </button>
+              <a href="tel:+79180741469" className="btn-cta" style={{ background: "var(--primary)", color: "white", textDecoration: "none" }}>
+                Заказать по телефону
+              </a>
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть меню
               </button>
