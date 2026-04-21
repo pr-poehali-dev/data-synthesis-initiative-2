@@ -73,8 +73,8 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит продаж</span>
               <img
-                src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Домашний борщ"
+                src="https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Микрозелень горох"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Борщ домашний</h3>
-                  <span className="price">350 ₽</span>
+                  <h3>Горох</h3>
+                  <span className="price">150 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Наваристый на говяжьей кости, со свежей сметаной и пампушками с чесноком.
+                  Нежная и сочная микрозелень гороха. Сладковатый вкус, богата витаминами и белком.
                 </p>
               </div>
             </div>
@@ -97,11 +97,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Новинка
+                Свежее
               </span>
               <img
-                src="https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Пельмени ручной лепки"
+                src="https://images.unsplash.com/photo-1609501676725-7186f017a4b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Микрозелень редис"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Пельмени ручной лепки</h3>
-                  <span className="price">420 ₽</span>
+                  <h3>Редис</h3>
+                  <span className="price">150 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Сочная начинка из трёх видов мяса, тонкое тесто, лепим сами каждый день.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Острая и яркая микрозелень редиса. Добавит характер любому блюду или салату.</p>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Пироги"
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Микрозелень руккола"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Пироги с начинкой</h3>
-                  <span className="price">180 ₽</span>
+                  <h3>Руккола</h3>
+                  <span className="price">150 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Капуста, картошка с грибами или мясо — выбирай сам. Из печи каждое утро.
+                  Пикантная микрозелень рукколы с ореховым послевкусием. Идеальна в пасте, пицце и бутербродах.
                 </p>
               </div>
             </div>
