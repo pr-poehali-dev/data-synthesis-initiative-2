@@ -41,7 +41,7 @@ export default function Index() {
               КАЖДЫЙ ДЕНЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ДОМАШНЕЕ
+              #МИКРОЗЕЛЕНЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
               С ЛЮБОВЬЮ
@@ -51,8 +51,8 @@ export default function Index() {
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * ЗЁМА * ЕДА БЕЗ ПОНТОВ * ТОЛЬКО СВЕЖЕЕ * ДОСТАВКА И РЫНОК * БЕЗ ПОЛУФАБРИКАТОВ * ЗЁМА ЗНАЕТ ВКУС *
-            ЗЁМА * ЕДА БЕЗ ПОНТОВ * ТОЛЬКО СВЕЖЕЕ * ДОСТАВКА И РЫНОК * БЕЗ ПОЛУФАБРИКАТОВ * ЗЁМА ЗНАЕТ ВКУС
+            &nbsp; * ЗЁМА * МИКРОЗЕЛЕНЬ ДОМА * ГОРОХ * РЕДИС * РУККОЛА * СРЕЗАЕМ СВЕЖЕЙ * БЕЗ ХИМИИ * ДОСТАВКА И РЫНОК *
+            ЗЁМА * МИКРОЗЕЛЕНЬ ДОМА * ГОРОХ * РЕДИС * РУККОЛА * СРЕЗАЕМ СВЕЖЕЙ * БЕЗ ХИМИИ * ДОСТАВКА И РЫНОК
           </div>
         </div>
 
