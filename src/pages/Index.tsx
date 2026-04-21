@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">ВКУСНО*ДОМАШНЕЕ</div>
+        <div className="logo">ЗЁМА</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
@@ -197,7 +197,7 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">ВКУСНО*ДОМАШНЕЕ</div>
+          <div className="footer-logo">ЗЁМА</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Домашняя еда с душой — онлайн-заказ и на рынке. Готовим каждый день из свежих продуктов.
           </p>
@@ -237,7 +237,7 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2026 ВКУСНО ДОМАШНЕЕ</span>
+          <span>2026 ЗЁМА</span>
           <span>ЕДА С ДУШОЙ</span>
           <span>VK / TG / IG</span>
         </div>
