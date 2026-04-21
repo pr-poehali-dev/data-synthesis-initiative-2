@@ -11,7 +11,7 @@ export default function Index() {
           <a href="#">Доставка</a>
           <a href="#">Контакты</a>
         </nav>
-        <a href="tel:+79180741469" className="btn-cta" style={{ textDecoration: "none" }}>Заказать</a>
+        <a href="tel:+79180741469" className="btn-cta" style={{ background: "#3ecf1a", color: "white", textDecoration: "none" }}>Заказать</a>
       </header>
 
       <main>
