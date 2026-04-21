@@ -58,7 +58,7 @@ export default function Index() {
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">НАШЕ МЕНЮ</h2>
+            <h2 className="section-title">НАША ЗЕЛЕНЬ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
